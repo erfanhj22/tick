@@ -1,59 +1,18 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="fa" dir="rtl">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>دوز آنلاین PRO - GitHub Edition</title>
-<link rel="stylesheet" href="style.css">
-</head>
-<body>
-<canvas id="confetti"></canvas>
-<div class="container">
-  <h1>دوز آنلاین PRO ❌⭕</h1>
-  <p style="opacity:0.7;font-size:13px">نسخه GitHub Pages | ساخته شده با PeerJS</p>
-
-  <div id="lobby">
-    <button class="btn-create" onclick="createGame()">ساخت اتاق جدید</button>
-    <div id="myIdBox" style="display:none" class="roomBox">
-      کد اتاق تو:<br><b id="myId"></b><br>
-      <button onclick="copyId()" class="btn-copy">کپی کد 📋</button>
-      <p style="font-size:12px;margin-top:8px">کد رو به دوستت بفرست... منتظر حریف ⏳</p>
-    </div>
-    <hr>
-    <input id="roomInput" placeholder="کد اتاق دوستت رو وارد کن">
-    <button class="btn-join" onclick="joinGame()">ورود به اتاق</button>
-    <p id="lobbyStatus"></p>
-  </div>
-
-  <div id="game" style="display:none">
-    <div class="scoreBoard">
-      <span>❌ <b id="scoreX">0</b></span>
-      <span>🤝 <b id="scoreD">0</b></span>
-      <span>⭕ <b id="scoreO">0</b></span>
-    </div>
-    <div id="youAre"></div>
-    <div class="status" id="status"></div>
-    <div class="timerWrap"><div class="timerBar" id="timerBar"></div></div>
-    <div class="timerText" id="timerText">⏱ 10 ثانیه</div>
-    <label style="font-size:12px"><input type="checkbox" id="soundToggle" checked> صدا فعال 🔊</label>
-
-    <div class="board" id="board">
-      <div class="cell" data-index="0"></div><div class="cell" data-index="1"></div><div class="cell" data-index="2"></div>
-      <div class="cell" data-index="3"></div><div class="cell" data-index="4"></div><div class="cell" data-index="5"></div>
-      <div class="cell" data-index="6"></div><div class="cell" data-index="7"></div><div class="cell" data-index="8"></div>
-    </div>
-    <button class="restart" onclick="requestRestart()">شروع دوباره 🔄</button>
-    <div class="chat">
-      <h3>💬 چت زنده</h3>
-      <div class="messages" id="messages"></div>
-      <div class="chatInput">
-        <input id="chatInput" placeholder="پیام..." onkeypress="if(event.key===\'Enter\') sendChat()">
-        <button onclick="sendChat()">ارسال</button>
-      </div>
-    </div>
-  </div>
-</div>
-<script src="https://unpkg.com/peerjs@1.5.3/dist/peerjs.min.js"></script>
-<script src="app.js"></script>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%23d4af37'><rect width='22' height='16' x='1' y='4' rx='3' fill='%23111218' stroke='%23d4af37' stroke-width='1.5'/><line x1='1' y1='9' x2='23' y2='9' stroke='%23d4af37' stroke-width='1.5'/><circle cx='6' cy='15' r='1.5' fill='%23d4af37'/></svg>" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>سامانه سلطنتی کارت به کارت | Royal Pay VIP</title>
+    <!-- Google Fonts: Vazirmatn -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+  </head>
+  <body class="bg-[#0b0c10] text-[#e0e0e0] font-['Vazirmatn',system-ui,sans-serif] antialiased selection:bg-[#d4af37]/30 selection:text-[#f3e5ab] overflow-x-hidden min-h-screen">
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
 </html>
+
