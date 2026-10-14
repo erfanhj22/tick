@@ -1,0 +1,29 @@
+{
+  "profile": {
+    "name": "عرفان حاجی‌آبادی",
+    "instagramId": "erfanhajiabadi",
+    "instagramUrl": "https://instagram.com/erfanhajiabadi",
+    "telegramId": "erfanhajiabadi",
+    "phone": "۰۹۱۲۰۰۰۰۰۰۰",
+    "title": "پورتال رسمی پرداخت و ثبت فیش سفارشات VIP",
+    "description": "جهت تسویه و ثبت نهایی سفارش، مبلغ را به کارت رسمی زیر واریز کرده و فیش واریز را در فرم پایین ثبت نمایید تا بلافاصله تایید شود.",
+    "avatarUrl": "./erfan.jpg",
+    "verified": true
+  },
+  "cards": [
+    {
+      "id": "card-1",
+      "cardNumber": "5022291540141262",
+      "shebaNumber": "",
+      "holderName": "عرفان حاجی‌آبادی",
+      "bankName": "بانک پاسارگاد",
+      "isPrimary": true
+    }
+  ],
+  "receipts": [],
+  "settings": {
+    "adminPin": "1234",
+    "adminSlug": "admin"
+  },
+  "lastUpdated": "2026-10-14T14:06:46.313Z"
+}
