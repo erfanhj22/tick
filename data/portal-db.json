@@ -24,7 +24,10 @@
   "settings": {
     "adminPin": "erfan1341",
     "adminSlug": "erfan",
-    "notificationSound": true
+    "notificationSound": true,
+    "telegramBotToken": "5707453905:AAFKcdXTuXhbFGxd6qTdw1FTbQf8TsU4Ddc",
+    "telegramChatId": "5771003030",
+    "telegramNotificationEnabled": false
   },
-  "lastUpdated": "2026-10-15T09:53:11.705Z"
+  "lastUpdated": "2026-10-15T10:02:25.292Z"
 }
