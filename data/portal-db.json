@@ -20,11 +20,26 @@
       "isPrimary": true
     }
   ],
-  "receipts": [],
+  "receipts": [
+    {
+      "id": "rc-102",
+      "trackingCode": "EH-74129",
+      "customerName": "سپیده معتمدی",
+      "customerPhone": "09359876543",
+      "customerInstagram": "sepideh.m",
+      "amount": 4800000,
+      "orderTitle": "تسویه حساب خدمات مشاوره و طراحی",
+      "sourceCardLast4": "9081",
+      "submittedAt": "۱۴۰۳/۰۷/۲۰ - ۲۱:۱۵",
+      "status": "approved",
+      "receiptImage": "",
+      "adminNotes": "تایید شد و فاکتور ارسال شد"
+    }
+  ],
   "settings": {
     "adminPin": "erfan1341",
     "adminSlug": "erfan",
     "notificationSound": true
   },
-  "lastUpdated": "2026-10-15T09:52:57.844Z"
+  "lastUpdated": "2026-10-15T09:53:01.365Z"
 }
