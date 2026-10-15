@@ -41,7 +41,7 @@
     "notificationSound": true,
     "telegramBotToken": "5707453905:AAFKcdXTuXhbFGxd6qTdw1FTbQf8TsU4Ddc",
     "telegramChatId": "5771003030",
-    "telegramNotificationEnabled": false
+    "telegramNotificationEnabled": true
   },
-  "lastUpdated": "2026-10-15T10:03:58.801Z"
+  "lastUpdated": "2026-10-15T10:09:06.820Z"
 }
