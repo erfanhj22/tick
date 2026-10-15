@@ -1,6 +1,8 @@
 {
-  "test": "test",
   "settings": {
-    "adminPin": "erfan1341"
-  }
+    "adminPin": "erfan1341",
+    "adminSlug": "admin",
+    "notificationSound": true
+  },
+  "lastUpdated": "2026-10-15T07:56:39.738Z"
 }
