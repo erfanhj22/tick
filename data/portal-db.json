@@ -22,20 +22,6 @@
   ],
   "receipts": [
     {
-      "id": "rc-101",
-      "trackingCode": "EH-89412",
-      "customerName": "کامران سلیمی",
-      "customerPhone": "09121112233",
-      "customerInstagram": "kamran_salimi",
-      "amount": 2500000,
-      "orderTitle": "ثبت سفارش دوره VIP و پکیج اختصاصی",
-      "sourceCardLast4": "4512",
-      "submittedAt": "۱۴۰۳/۰۷/۲۱ - ۱۶:۴۰",
-      "status": "pending",
-      "receiptImage": "",
-      "adminNotes": "نیاز به ارسال لینک عضویت تلگرام پس از تایید"
-    },
-    {
       "id": "rc-102",
       "trackingCode": "EH-74129",
       "customerName": "سپیده معتمدی",
@@ -55,5 +41,5 @@
     "adminSlug": "erfan",
     "notificationSound": true
   },
-  "lastUpdated": "2026-10-15T08:39:17.269Z"
+  "lastUpdated": "2026-10-15T09:52:45.250Z"
 }
